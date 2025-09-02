@@ -24,7 +24,7 @@ public class Circle extends Shape{
     }
 
     @Override
-    public String lineColor() {
-        return "azul";
+    public String lineColor(String color) {
+        return color;
     }
 }

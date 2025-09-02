@@ -25,7 +25,7 @@ public class Rectangle extends Shape{
     }
 
     @Override
-    public String lineColor() {
-        return "lila";
+    public String lineColor(String color) {
+        return color;
     }
 }
