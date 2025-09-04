@@ -4,7 +4,9 @@ abstract class Person {
     String name;
     Date dob;
 
-    abstract void getDetails();
+    void getDetails(){
+        System.out.println("Name: " + this.name);
+    }
 
     public String getName() {
         return name;
